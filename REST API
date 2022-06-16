@@ -1,0 +1,40 @@
+Maven contains all Java Dependencies 
+Maven used for Java Based or Web Based Projects
+
+RESTful API :
+
+HTTP Request :
+Client ------- HTTP Request -----> Server
+
+HTTP Respond : HTML Web Page / Resources
+Client  <--------- HTTP Respond ----- Server
+
+GET : Read
+
+ Server searches data in database and returns result --> JSON Format ,
+ Client sends Request to Server and fetches data from Database through Server , Server Responds by sending data in JSON format
+
+Ex : "/Articles" or "/Articles/Alex"
+
+POST : Create 
+
+Stores data in Database
+Data is added in Body of Postman
+Client sends Request for storing data in Database and Server stores data in Database and Responds if it is successful or there is any error
+
+Ex : "/Articles"
+
+DELETE : Delete
+
+Deletes data in Database
+Client sends Request for deleting data stored in Database and Server Responds if it is successful or there is any error
+
+Ex : "/Articles" or "/Articles/Alex"
+
+
+PUT / PATCH : For single article in Web Page , Updates data in Database , Changes is made in Body of Postman
+
+PUT --> Complete Update
+PATCH --> Single / Partial Update 
+
+Ex :   "/Articles/Alex"
